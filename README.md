@@ -9,6 +9,6 @@
 * ros2
 
 ## テスト環境
-* Ubuntu22.04
+* Ubuntu 22.04.1 LTS
 
 © 2022 Marin Yasuda
