@@ -33,8 +33,12 @@ $ ros2 run mypkg talker
 ```bash
 $ ros2 run mypkg listener
 [INFO] [1673418306.209485300] [listener]: Listen: 0
-
+[INFO] [1673418306.696993300] [listener]: Listen: 1
+・・・
 ```
+* listenerが先の場合
+  * listenerを先に起動すると先ずは何も表示されない
+  * 別の端末でtalkerを起動するとListen: 0から表示される
 
 ## ノードとトピック
 一つ一つのノード(プログラム)がトピックという流路で通信する。
