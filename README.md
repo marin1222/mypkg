@@ -14,7 +14,7 @@
   * ロボットシステム学lesson9までの内容
 
 * lesson10
-  * ロボットシステム学lesson10まで内容
+  * ロボットシステム学lesson10までの内容
 
 ## ダウンロード
 ```bash
@@ -48,7 +48,7 @@ $ ros2 run mypkg listener
 * ros2 humble
 
 ## テスト環境
-* Ubuntu 22.04.1 LTS
+* Ubuntu 22.04
 * ros2 humble
 
 ## ライセンス
