@@ -41,17 +41,15 @@ $ ros2 run mypkg listener
 
 ## ノードとトピック
 ![](https://raw.githubusercontent.com/marin1222/mypkg/main/rosgraph.png)
-* ノード・・・プログラムのこと。今回の場合はtalkerとlistenerのこと。
-* トピック・・・データの流路。
-
-一つ一つのノードがトピックで通信する。
+* talker・・・数字を発行する。
+* listener・・・talkerで発行された情報を表示する。
 
 ## 必要なソフトウェア
-* Python3
 * ros2 humble
 
 ## テスト環境
 * Ubuntu 22.04.1 LTS
+* ros2 humble
 
 ## ライセンス
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます。
