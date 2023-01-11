@@ -14,6 +14,19 @@
 * lesson10
   * lesson10まで
 
+## ダウンロード
+```bash
+$ mkdir -p ros2_ws/src
+$ cd ~/ros2_ws/src/
+$ git clone https://github.com/marin1222/mypkg.git
+$ rosdep install -i --from-path src --rosdistro humble -y
+$ cd ~/ros2_ws
+$ colcon build
+$ source ~/ros2_ws/install/setup.bash
+```
+## 入出力例
+$ 
+
 ## ノードとトピック
 一つ一つのノード(プログラム)がトピックという流路で通信する。
 
