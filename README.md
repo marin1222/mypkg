@@ -40,7 +40,7 @@ $ ros2 run mypkg listener
 ```
 
 ## ノードとトピック
-![](https://raw.githubusercontent.com/marin1222/mypkg/main/rosgraph.png)
+![image](https://raw.githubusercontent.com/marin1222/mypkg/main/rosgraph.png)
 * talker・・・数字を0から0.5秒おきに1ずつ上げてcountup発行する。
 * listener・・・talkerで発行された情報を表示する。
 
