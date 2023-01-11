@@ -40,7 +40,7 @@ $ ros2 run mypkg listener
 ```
 
 ## ノードとトピック
-![]()
+![](https://raw.githubusercontent.com/marin1222/mypkg/main/rosgraph.png)
 * ノード・・・プログラムのこと。今回の場合はtalkerとlistenerのこと。
 * トピック・・・データの流路。
 
