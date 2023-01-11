@@ -4,23 +4,25 @@
 ## 概要
 ロボットシステム学の練習リポジトリ
 
+
+
 ## ブランチ
 * main
-  * lesson11までの内容
+  * ロボットシステム学lesson11までの内容
 
 * lesson9
-  * lesson9までの内容
+  * ロボットシステム学lesson9までの内容
 
 * lesson10
-  * lesson10まで内容
+  * ロボットシステム学lesson10まで内容
 
 ## ダウンロード
 ```bash
 $ mkdir -p ros2_ws/src
 $ cd ~/ros2_ws/src/
 $ git clone https://github.com/marin1222/mypkg.git
-$ rosdep install -i --from-path src --rosdistro humble -y
 $ cd ~/ros2_ws
+$ sudo rosdep install -i --from-path src --rosdistro humble -y
 $ colcon build
 $ source ~/ros2_ws/install/setup.bash
 ```
